@@ -32,7 +32,9 @@
             "args": [
                 "-fdiagnostics-color=always",
                 "-g",
-                "${file}",
+                "${fileDirname}\\main.c",
+                "${fileDirname}\\Mobs\\entity.c",
+                "${fileDirname}\\Mobs\\status.c",
                 "-o",
                 "${fileDirname}\\${fileBasenameNoExtension}.exe"
             ],
