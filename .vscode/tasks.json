@@ -7,9 +7,11 @@
             "args": [
                 "-fdiagnostics-color=always",
                 "-g",
-                "*.c",
+                "${fileDirname}\\main.c",
+                "${fileDirname}\\Mobs\\entity.c",
+                "${fileDirname}\\Mobs\\status.c",
                 "-o",
-                "${fileDirname}\\main.exe"
+                "${workspaceFolder}\\${workspaceRootFolderName}.exe"
             ],
             "options": {
                 "cwd": "C:\\msys64\\ucrt64\\bin"
