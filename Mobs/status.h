@@ -4,13 +4,14 @@
 /* defination of enum */
 typedef enum status_{
 
-    status_none = 0,
-    status_bleeding,
-    status_poisoning,
-    status_vertigo,
-    status_blinding,
-    status_weakness,
-    status_vulnerable,
+    status_none_e = 0,
+    status_bleeding_e,
+    status_poisoning_e,
+    status_vertigo_e,
+    status_blinding_e,
+    status_weakness_e,
+    status_vulnerable_e,
+    status_max_nums_e
 
 }status_t;
 

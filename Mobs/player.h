@@ -5,11 +5,7 @@ typedef struct player_
 {
     /* data */
     entity_t* e;
-
-
-
-
-
+    
 
 }player_t;
 
